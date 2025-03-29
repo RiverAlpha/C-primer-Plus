@@ -1,3 +1,4 @@
+// 计算水分子质量
 #include<stdio.h>
 int main(){
     double mass_per_kuake = 950/3.0e-23;
