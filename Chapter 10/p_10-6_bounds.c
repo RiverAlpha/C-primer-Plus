@@ -22,3 +22,24 @@ int main(){
     printf("address of value2: %p\n",&value2);
     return 0;
 }
+/*
+
+arr[-1]与value2的地址一致
+使用越界的数组下标可能会导致程序改变其他变量的值
+
+value1 = 44, value2 = 88
+-1 -1
+ 0 1
+ 1 3
+ 2 5
+ 3 7
+ 4 9
+ 5 0
+ 6 44
+value1 = 44, value2 = -1
+address of arr[-1]: 000000000061FDFC
+address of arr[4]: 000000000061FE10
+address of value1: 000000000061FE18
+address of value2: 000000000061FDFC
+
+*/
