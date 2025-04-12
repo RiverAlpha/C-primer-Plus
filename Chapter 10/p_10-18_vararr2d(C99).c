@@ -1,4 +1,4 @@
-// Ê¹ÓÃ±ä³¤Êı×éµÄº¯Êı
+// ä½¿ç”¨å˜é•¿æ•°ç»„çš„å‡½æ•°
 #include<stdio.h>
 #define ROWS 3
 #define COLS 4
@@ -17,7 +17,7 @@ int main(){
         {5,6,7,8,9,10},
     };
 
-    int varr[rs][cs]; //±ß³¤Êı×é
+    int varr[rs][cs]; //è¾¹é•¿æ•°ç»„
     for ( i = 0; i < rs; i++)
     {
             for ( j = 0; j < cs; j++)
