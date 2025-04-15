@@ -1,15 +1,10 @@
-// 地址表达法
 #include<stdio.h>
-void main(){
-    int grid[30][100];
-    //两种写法表示grid[22][0]
-    printf("%p\t",&grid[22][0]);
-    printf("%p\t",*(grid+22));
-    printf("%p\t\n",grid[22]);
-    //三种写法表示grid[0][0]
-    printf("%p\t",&grid[0][0]);
-    printf("%p\t",*grid);
-    printf("%p\t",grid[0]);
-    printf("%p\t",grid);
-    printf("%p\t",&**grid);
+int main(){
+
+    printf("%s, %p,%c\n","We","are",*"space farers");
+
+    return 0;
 }
+/*
+We, 0000000000404000,s
+*/
