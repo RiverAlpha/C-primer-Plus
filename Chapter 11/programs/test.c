@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-    char name1[7] = {'c','d','v','v','\0','c','d'};
+    char name1[7] = {'v','v','\0','c','d'};
     char name2[3] = {'a','b','c'};
     char *p1 = name1;
     char *p2 = name2;
