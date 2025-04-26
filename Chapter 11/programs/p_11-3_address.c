@@ -11,7 +11,6 @@ int main(){
     printf("            address pt: %p\n",pt);
     printf("           address of MSG: %p\n",MSG);
     printf("address of \"I'm special\": %p \n","I'am special");
-
     return 0;
 }
 /*
@@ -20,6 +19,9 @@ address of "I'm special":000000000040400C
             address pt: 0000000000404000
            address of MSG: 0000000000404000
 address of "I'm special": 000000000040400C 
+*/
+
+/*
 
 可以看到pt和MSG指针的值是一样的（指向的地址一致）
 而与ar不一样 这是因为字符串和字符数组存储方式不一样
