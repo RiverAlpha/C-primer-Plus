@@ -4,7 +4,10 @@
 void fit(char *,unsigned int);
 int main(){
     char mesg [] = "Things should be as simple as possible,"
+    
     " but not simpler.";
+    char abc[] = "abc";
+    printf("strlen(\"abc\") = %d\n",strlen("abc"));
     puts(mesg);
     fit(mesg,38);
     puts(mesg);
@@ -17,3 +20,12 @@ void fit(char *string,unsigned int size){
         string[size] = '\0';
     }
 }
+/*
+Things should be as simple as possible, but not simpler.
+Things should be as simple as possible
+Let's look at some more of the string.
+ but not simpler.
+*/
+/*
+fit函数把第39个元素的逗号替换成空字符\0,
+*/

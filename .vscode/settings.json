@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "string.h": "c"
     },
     "workbench.colorTheme": "Visual Studio Light - C++"
 }
